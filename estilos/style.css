@@ -24,9 +24,6 @@ body, html {
 
 main {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 100vw;
 }
@@ -35,30 +32,26 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
     background-color: #5e7ebf;
-    position: absolute;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px 0px #0000006e;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.450);
+    transition: width 1s, height 1s;
 }
-
-section#login h1 {
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-}
-section#login > div#imagen {
+section#login > div#imagem {
     display: block;
-    background: #222a59 url(../imagens/pexels-timmossholder-3612932.jpg) no-repeat left bottom;
+    background: #222a59 url(../imagens/pexels-sean-whang-25006-804269.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 200px;
     border-radius: 20px;
 }
 
 section#login > div#formulario {
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* DEVICE BREAK POINTS */
+/* In 2024, common device breakpoints for responsive web design are:
+Mobile: Up to 576 pixels, for smartphones and small mobile devices 
+Tablet: 577–1024 pixels, for tablets like the iPad Mini 
+Desktop: 1025–1440 pixels, for smaller laptops or desktops 
+Large desktop: 1441 pixels and above, for large desktop monitors and high-resolution screens 
+*/
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw; 
+    }
+    
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 950px; 
+    }
+    
+    section#login > div#imagem {
+        float: left; 
+        width: 50%; 
+        height: 100%;
+    }
+    
+    section#login > div#formulario {
+        float: right;
+        width: 50%; 
+    }
+}
+
+
