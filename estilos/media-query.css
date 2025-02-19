@@ -17,7 +17,8 @@ Large desktop: 1441 pixels and above, for large desktop monitors and high-resolu
         background-image: linear-gradient(to top, #acf2f2, #5e7ebf);
     }
     section#login {
-        width: 80vw; 
+        width: 80vw;
+        height: 305px;
     }
     
     section#login > div#imagem {
@@ -38,7 +39,8 @@ Large desktop: 1441 pixels and above, for large desktop monitors and high-resolu
         background-image: linear-gradient(to top, #acf2f2, #5e7ebf);
     }
     section#login {
-        width: 950px; 
+        width: 950px;
+        height: 360px;
     }
     
     section#login > div#imagem {
@@ -57,9 +59,16 @@ Large desktop: 1441 pixels and above, for large desktop monitors and high-resolu
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     
     }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    
+    }
+    
 }
 
 
