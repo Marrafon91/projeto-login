@@ -12,6 +12,10 @@ Large desktop: 1441 pixels and above, for large desktop monitors and high-resolu
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #acf2f2, #5e7ebf);
+    }
     section#login {
         width: 80vw; 
     }
@@ -30,6 +34,9 @@ Large desktop: 1441 pixels and above, for large desktop monitors and high-resolu
 
 
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #acf2f2, #5e7ebf);
+    }
     section#login {
         width: 950px; 
     }
